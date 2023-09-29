@@ -15,6 +15,17 @@ public class day3 {
 	}
 	
 	@Test
+	public void mobileLoginHomeLoan2() {
+		System.out.println("enter to mobile login");
+	}
+	@Test
+	public void mobileLoginHomeLoan3() {
+		System.out.println("enter to mobile login");
+	}
+	
+	
+	
+	@Test
 	public void loginAPIHomeLoan() {
 		System.out.println("enter to login api");
 	}
