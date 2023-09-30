@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class day4 {
@@ -17,5 +18,10 @@ public class day4 {
 	@Test
 	public void loginAPICarLoan() {
 		System.out.println("enter to login api");
+	}
+	
+	@BeforeSuite
+	public void BeforeSuiteDemo() {
+		System.out.println("IM the first suite annotation");
 	}
 }
