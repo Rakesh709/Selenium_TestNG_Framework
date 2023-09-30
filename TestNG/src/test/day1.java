@@ -1,5 +1,7 @@
 package test;
 
+import org.testng.annotations.AfterTest;
+
 import org.testng.annotations.Test;
 
 public class day1 {
@@ -13,5 +15,9 @@ public class day1 {
 	public void SecondDemo() {
 		System.out.println("Bye");
 	}
-
+	
+	@AfterTest
+	public void fourth() {
+		System.out.println("This is the After test annotation");
+	}
 }
