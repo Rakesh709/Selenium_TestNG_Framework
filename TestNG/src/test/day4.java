@@ -3,12 +3,15 @@ package test;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
+import com.beust.jcommander.Parameters;
+
 public class day4 {
 	
 	@Test(groups= {"Smoke"})
 	public void webLoginCarLoan() {
 		System.out.println("enter to CarLoanweblogin");
 	}
+	
 	
 	@Test
 	public void mobileLoginCarLoan() {

@@ -3,16 +3,9 @@
 <suite name="Loan Department">
   <parameter name="URL" value="google.com"/>
   <test thread-count="5" name="Regression Testing">
-  	<groups>
-  		<run>
-  			<include name="Smoke"/>
-  		</run>
-  	</groups>
+  	
     <classes>
-        <class name="test.day1"/> 
-        <class name="test.day2"/> 
-    	<class name="test.day3"/> 
-    	<class name="test.day4"/>
+       
     	<class name="test.day5"/>
     </classes>
    </test> 
