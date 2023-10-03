@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class day1 {
 	
-	@Test
+	@Test(groups= {"Smoke"})
 	public void Demo() {
 		System.out.println("Hello World!");
 	}

@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 
 public class day4 {
 	
-	@Test
+	@Test(groups= {"Smoke"})
 	public void webLoginCarLoan() {
-		System.out.println("enter to weblogin");
+		System.out.println("enter to CarLoanweblogin");
 	}
 	
 	@Test
