@@ -123,12 +123,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Loan_Department" title="test.day5" class="method navigator-link" hash-for-method="mobileLoginHomeLoan2(secondUser, secoundPass)">mobileLoginHomeLoan2(secondUser, secoundPass)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Loan_Department" title="test.day3" class="method navigator-link" hash-for-method="mobileLoginHomeLoan2">mobileLoginHomeLoan2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Loan_Department" title="test.day3" class="method navigator-link" hash-for-method="mobileLoginHomeLoan2">mobileLoginHomeLoan2</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Loan_Department" title="test.day5" class="method navigator-link" hash-for-method="mobileLoginHomeLoan2(secondUser, secoundPass)">mobileLoginHomeLoan2(secondUser, secoundPass)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -251,10 +251,10 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Loan Department&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Loan Department&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;parameter name=&quot;URL&quot; value=&quot;google.com&quot;/&gt;
   &lt;parameter name=&quot;KEY&quot; value=&quot;123124&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Testing&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Regression Testing&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.day5&quot;/&gt;
       &lt;class name=&quot;test.day3&quot;/&gt;
@@ -309,44 +309,44 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'mobileLoginHomeLoan2')
 data.setCell(0, 2, 'test.day5')
-data.setCell(0, 3, 12);
+data.setCell(0, 3, 19);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'mobileLoginHomeLoan2')
 data.setCell(1, 2, 'test.day5')
-data.setCell(1, 3, 4);
+data.setCell(1, 3, 12);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'mobileLoginHomeLoan3')
-data.setCell(2, 2, 'test.day5')
-data.setCell(2, 3, 3);
+data.setCell(2, 1, 'mobileLoginHomeLoan2')
+data.setCell(2, 2, 'test.day3')
+data.setCell(2, 3, 11);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'mobileLoginHomeLoan2')
-data.setCell(3, 2, 'test.day5')
-data.setCell(3, 3, 2);
+data.setCell(3, 1, 'mobileLoginHomeLoan')
+data.setCell(3, 2, 'test.day3')
+data.setCell(3, 3, 7);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'mobileLoginHomeLoan2')
-data.setCell(4, 2, 'test.day3')
-data.setCell(4, 3, 2);
+data.setCell(4, 1, 'mobileLoginHomeLoan3')
+data.setCell(4, 2, 'test.day5')
+data.setCell(4, 3, 6);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'apiLoginHomeLoan')
+data.setCell(5, 1, 'mobileLoginHomeLoan3')
 data.setCell(5, 2, 'test.day3')
-data.setCell(5, 3, 2);
+data.setCell(5, 3, 4);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'mobileLoginHomeLoan')
+data.setCell(6, 1, 'apiLoginHomeLoan')
 data.setCell(6, 2, 'test.day3')
 data.setCell(6, 3, 2);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'mobileLoginHomeLoan3')
-data.setCell(7, 2, 'test.day3')
+data.setCell(7, 1, 'mobileLoginHomeLoan2')
+data.setCell(7, 2, 'test.day5')
 data.setCell(7, 3, 2);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'webLoginHomeLoan')
 data.setCell(8, 2, 'test.day3')
-data.setCell(8, 3, 2);
+data.setCell(8, 3, 1);
 window.suiteTableData['Loan_Department']= { tableData: data, tableDiv: 'times-div-Loan_Department'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 ms</span>
+              <span class="suite-total-time">Total running time: 169 ms</span>
               <div id="times-div-Loan_Department">
               </div> <!-- times-div-Loan_Department -->
             </div> <!-- times-div -->
@@ -386,38 +386,38 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">mobileLoginHomeLoan2(secondUser, secoundPass)</span>
-                <span class="method-start">17 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">mobileLoginHomeLoan2(thirduser, thirdPass)</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">mobileLoginHomeLoan3(123124)</span>
-                <span class="method-start">30 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.day3</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">mobileLoginHomeLoan</span>
-                <span class="method-start">40 ms</span>
+                <span class="method-start">67 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">mobileLoginHomeLoan2</span>
-                <span class="method-start">46 ms</span>
+                <span class="method-start">82 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">mobileLoginHomeLoan3(google.com)</span>
-                <span class="method-start">50 ms</span>
+                <span class="method-start">97 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">webLoginHomeLoan</span>
-                <span class="method-start">57 ms</span>
+                <span class="method-start">108 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">apiLoginHomeLoan</span>
-                <span class="method-start">71 ms</span>
+                <span class="method-start">122 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Loan Department">
+<suite name="Loan Department" parallel="tests" thread-count="5">
   <parameter name="URL" value="google.com"/>
   <parameter name="KEY" value="123124"/>
   <test thread-count="5" name="Regression Testing">

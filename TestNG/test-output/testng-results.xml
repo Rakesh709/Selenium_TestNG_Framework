@@ -1,17 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-03T14:53:21 IST" name="Loan Department" finished-at="2023-10-03T14:53:21 IST" duration-ms="47">
+  <suite started-at="2023-10-05T12:33:00 IST" name="Loan Department" finished-at="2023-10-05T12:33:01 IST" duration-ms="169">
     <groups>
+      <group name="Smoke">
+        <method signature="day3.webLoginHomeLoan()[pri:0, instance:test.day3@4e08711f]" name="webLoginHomeLoan" class="test.day3"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-10-03T14:53:21 IST" name="Regression Testing" finished-at="2023-10-03T14:53:21 IST" duration-ms="47">
+    <test started-at="2023-10-05T12:33:00 IST" name="Regression Testing" finished-at="2023-10-05T12:33:01 IST" duration-ms="169">
       <class name="test.day5">
-        <test-method signature="mobileLoginHomeLoan2()[pri:0, instance:test.day5@682b2fa]" started-at="2023-10-03T14:53:21 IST" name="mobileLoginHomeLoan2" finished-at="2023-10-03T14:53:21 IST" duration-ms="9" status="PASS">
+        <test-method signature="mobileLoginHomeLoan2(java.lang.String,java.lang.String)[pri:0, instance:test.day5@6ed3ccb2]" started-at="2023-10-05T12:33:01 IST" name="mobileLoginHomeLoan2" data-provider="getData" finished-at="2023-10-05T12:33:01 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firsPassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginHomeLoan2 -->
-        <test-method signature="mobileLoginHomeLoan3(java.lang.String)[pri:0, instance:test.day5@682b2fa]" started-at="2023-10-03T14:53:21 IST" name="mobileLoginHomeLoan3" finished-at="2023-10-03T14:53:21 IST" duration-ms="6" status="PASS">
+        <test-method signature="mobileLoginHomeLoan2(java.lang.String,java.lang.String)[pri:0, instance:test.day5@6ed3ccb2]" started-at="2023-10-05T12:33:01 IST" name="mobileLoginHomeLoan2" data-provider="getData" finished-at="2023-10-05T12:33:01 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secoundPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan2 -->
+        <test-method signature="mobileLoginHomeLoan2(java.lang.String,java.lang.String)[pri:0, instance:test.day5@6ed3ccb2]" started-at="2023-10-05T12:33:01 IST" name="mobileLoginHomeLoan2" data-provider="getData" finished-at="2023-10-05T12:33:01 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan2 -->
+        <test-method signature="mobileLoginHomeLoan3(java.lang.String)[pri:0, instance:test.day5@6ed3ccb2]" started-at="2023-10-05T12:33:01 IST" name="mobileLoginHomeLoan3" finished-at="2023-10-05T12:33:01 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan3 -->
+      </class> <!-- test.day5 -->
+      <class name="test.day3">
+        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:test.day3@4e08711f]" started-at="2023-10-05T12:33:01 IST" name="mobileLoginHomeLoan" finished-at="2023-10-05T12:33:01 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method signature="mobileLoginHomeLoan2()[pri:0, instance:test.day3@4e08711f]" started-at="2023-10-05T12:33:01 IST" name="mobileLoginHomeLoan2" finished-at="2023-10-05T12:33:01 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan2 -->
+        <test-method signature="mobileLoginHomeLoan3(java.lang.String)[pri:0, instance:test.day3@4e08711f]" started-at="2023-10-05T12:33:01 IST" name="mobileLoginHomeLoan3" finished-at="2023-10-05T12:33:01 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +90,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginHomeLoan3 -->
-      </class> <!-- test.day5 -->
+        <test-method signature="webLoginHomeLoan()[pri:0, instance:test.day3@4e08711f]" started-at="2023-10-05T12:33:01 IST" name="webLoginHomeLoan" finished-at="2023-10-05T12:33:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method signature="apiLoginHomeLoan()[pri:0, instance:test.day3@4e08711f]" started-at="2023-10-05T12:33:01 IST" name="apiLoginHomeLoan" finished-at="2023-10-05T12:33:01 IST" depends-on-methods="mobile.*, test.day3.webLoginHomeLoan" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginHomeLoan -->
+      </class> <!-- test.day3 -->
     </test> <!-- Regression Testing -->
   </suite> <!-- Loan Department -->
 </testng-results>
